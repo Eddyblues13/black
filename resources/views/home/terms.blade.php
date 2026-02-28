@@ -3,7 +3,7 @@
 
 <!-- Mirrored from karamelscript.com.ng/bmg/pages/terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:38:03 GMT -->
 
-<!-- Mirrored from trustwavedigitalasset.org/pages/terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:59:01 GMT -->
+<!-- Mirrored from blackrockdigitalasset.com/pages/terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:59:01 GMT -->
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <title> 404 Not Found
@@ -15,8 +15,10 @@
 </h2>
 <p>The resource requested could not be found on this server!</p>
 </div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body>
+<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div>
+@include('layouts.livechat')
+</body>
 <!-- Mirrored from karamelscript.com.ng/bmg/pages/terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:38:03 GMT -->
 
-<!-- Mirrored from trustwavedigitalasset.org/pages/terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:59:01 GMT -->
+<!-- Mirrored from blackrockdigitalasset.com/pages/terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:59:01 GMT -->
 </html>

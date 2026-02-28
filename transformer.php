@@ -48,8 +48,8 @@ function processFile($filePath, $homeDir) {
         $content = str_replace("href='" . $html . "'", "href='" . $route . "'", $content);
     }
     
-    $content = str_replace('https://trade.trustwavedigitalasset.org/login', '{{ route(\'login\') }}', $content);
-    $content = str_replace('https://trade.trustwavedigitalasset.org/register', '{{ route(\'register\') }}', $content);
+    $content = str_replace('https://trade.blackrockdigitalasset.com/login', '{{ route(\'login\') }}', $content);
+    $content = str_replace('https://trade.blackrockdigitalasset.com/register', '{{ route(\'register\') }}', $content);
     
     $filename = basename($filePath, '.html');
     if (strpos($filename, 'index') === 0) {

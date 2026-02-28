@@ -12,9 +12,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=1024">
     <base data-react-helmet="true">
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/styledb6.css') }}" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/favicon.png') }}">
+    <link href="<?php echo e(asset('assets/css/style.css')); ?>" rel="stylesheet">
+    <link href="<?php echo e(asset('assets/css/styledb6.css')); ?>" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="<?php echo e(asset('assets/favicon.png')); ?>">
     <meta name="generator" content="Gatsby 3.9.1">
     <meta property="og:title" content="Black Rock Digital Asset">
     <meta property="og:type" content="article">
@@ -66,7 +66,7 @@
     <title data-react-helmet="true">Black Rock Digital Asset: the online trading and investment platform</title>
     <meta data-react-helmet="true" namxe="title" property="og:title" content="Black Rock Digital Asset: the online trading and investment platform">
     <meta name="keywords" content="Black Rock Digital Asset">
-    <link rel="canonical" href="{{ route('home') }}">
+    <link rel="canonical" href="<?php echo e(route('home')); ?>">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Black Rock Digital Asset - Discover investment possibilities">
@@ -102,7 +102,7 @@
         }
 
         .extra-inner-bg {
-            background-image: url('{{ asset('assets/hero-bg.png') }}');
+            background-image: url('<?php echo e(asset('assets/hero-bg.png')); ?>');
             background-position: right;
             background-size: 500px;
             background-repeat: no-repeat;
@@ -151,13 +151,13 @@
   <header class="page__container">
     <div class="FvJ-85Xh7Y" style="padding:16px 0px 16px 0px;width:100%;align-items:center;justify-content:space-between;flex-direction:row;gap:12px">
       <div class="com-header__wrap">
-        <div class="com-header__box"><a class="com-header__logo-link" href="{{ route('home') }}">
-          <img src="{{ asset('assets/logo.png') }}" width="200">
+        <div class="com-header__box"><a class="com-header__logo-link" href="<?php echo e(route('home')); ?>">
+          <img src="<?php echo e(asset('assets/logo.png')); ?>" width="200">
         </a></div>
         <nav style="display: flex;flex-direction: row;gap: 40px;margin: 0 36px;" class="com-header-links">
           <div class="com-header-nav-links-item">
             <div class="com-header-nav-links-item__main-wrap">
-              <div class="com-header-nav-links-item__main"><a data-trans="site_about_company" href="{{ route('about') }}">About Us</a></div>
+              <div class="com-header-nav-links-item__main"><a data-trans="site_about_company" href="<?php echo e(route('about')); ?>">About Us</a></div>
             </div>
           </div>
           <div class="com-header-nav-links-item drp-menu" style="position: relative;">
@@ -166,9 +166,9 @@
             </div>
             <div class="com-header-nav-links-item__list-wrap" style="position:absolute;background-color:#1a1d21;padding: 20px;display: none;border-radius: 15px;">
               <ul class="com-header-nav-links-item__list" style="padding: 0;">
-                <li class="com-header-nav-links-item__item"><a data-trans="navigation_item_apps" href="{{ url('option-copy-trading') }}">Options copy trading</a></li>
-                <li class="com-header-nav-links-item__item"><a data-trans="user_tpl_support" href="{{ url('advance-trading') }}">Advanced trading account above PDT</a></li>
-                <li class="com-header-nav-links-item__item"><a data-trans="user_tpl_regulation" href="{{ url('live-trading') }}">Live trading interface</a></li>
+                <li class="com-header-nav-links-item__item"><a data-trans="navigation_item_apps" href="<?php echo e(url('option-copy-trading')); ?>">Options copy trading</a></li>
+                <li class="com-header-nav-links-item__item"><a data-trans="user_tpl_support" href="<?php echo e(url('advance-trading')); ?>">Advanced trading account above PDT</a></li>
+                <li class="com-header-nav-links-item__item"><a data-trans="user_tpl_regulation" href="<?php echo e(url('live-trading')); ?>">Live trading interface</a></li>
               </ul>
             </div>
           </div>
@@ -178,21 +178,21 @@
             </div>
             <div class="com-header-nav-links-item__list-wrap" style="position:absolute;background-color:#1a1d21;padding: 20px;display: none;border-radius: 15px;">
               <ul class="com-header-nav-links-item__list" style="padding: 0;">
-                <li class="com-header-nav-links-item__item"><a data-trans="navigation_item_apps" href="{{ url('swing-trading') }}">Swing trading</a></li>
-                <li class="com-header-nav-links-item__item"><a data-trans="user_tpl_support" href="{{ url('futures') }}">Futures</a></li>
-                <li class="com-header-nav-links-item__item"><a data-trans="user_tpl_regulation" href="{{ url('option-trading') }}">Options</a></li>
-                <li class="com-header-nav-links-item__item"><a data-trans="site_law_info" href="{{ url('oil-and-gas') }}">Oil and gas</a></li>
+                <li class="com-header-nav-links-item__item"><a data-trans="navigation_item_apps" href="<?php echo e(url('swing-trading')); ?>">Swing trading</a></li>
+                <li class="com-header-nav-links-item__item"><a data-trans="user_tpl_support" href="<?php echo e(url('futures')); ?>">Futures</a></li>
+                <li class="com-header-nav-links-item__item"><a data-trans="user_tpl_regulation" href="<?php echo e(url('option-trading')); ?>">Options</a></li>
+                <li class="com-header-nav-links-item__item"><a data-trans="site_law_info" href="<?php echo e(url('oil-and-gas')); ?>">Oil and gas</a></li>
               </ul>
             </div>
           </div>
           <div class="com-header-nav-links-item">
             <div class="com-header-nav-links-item__main-wrap">
-              <div class="com-header-nav-links-item__main"><a data-trans="stocksup_assets" href="{{ url('software') }}">Software</a></div>
+              <div class="com-header-nav-links-item__main"><a data-trans="stocksup_assets" href="<?php echo e(url('software')); ?>">Software</a></div>
             </div>
           </div>
           <div class="com-header-nav-links-item">
             <div class="com-header-nav-links-item__main-wrap">
-              <div class="com-header-nav-links-item__main"><a data-trans="stocksup_assets" href="{{ url('insight') }}">Insight</a></div>
+              <div class="com-header-nav-links-item__main"><a data-trans="stocksup_assets" href="<?php echo e(url('insight')); ?>">Insight</a></div>
             </div>
           </div>
         </nav>
@@ -202,7 +202,7 @@
             <div class="FvJ-85Xh7Y" style="padding: 8px 16px; width: 100%; max-height: 100%; max-width: 100%; align-items: center; justify-content: center; flex-direction: row;">
               <div class="OtK37B0dgM">
                 <div class="FvJ-85Xh7Y" style="width: 100%; align-items: center; justify-content: center; flex-direction: row; gap: 8px;">
-                  <div class="ZfdK6Ae8Lh _9kNVmQo8-7"><a href="{{ route('login') }}" class="ekkZvIsihs" data-align="start" data-size="M Compact" data-style="Bold" data-test="Text" style="color: inherit; display: block;">Login</a></div>
+                  <div class="ZfdK6Ae8Lh _9kNVmQo8-7"><a href="<?php echo e(route('login')); ?>" class="ekkZvIsihs" data-align="start" data-size="M Compact" data-style="Bold" data-test="Text" style="color: inherit; display: block;">Login</a></div>
                 </div>
               </div>
             </div>
@@ -211,7 +211,7 @@
             <div class="FvJ-85Xh7Y" style="padding: 8px 16px; width: 100%; max-height: 100%; max-width: 100%; align-items: center; justify-content: center; flex-direction: row;">
               <div class="OtK37B0dgM">
                 <div class="FvJ-85Xh7Y" style="width: 100%; align-items: center; justify-content: center; flex-direction: row; gap: 8px;">
-                  <div class="ZfdK6Ae8Lh _9kNVmQo8-7"><a href="{{ route('register') }}" class="ekkZvIsihs" data-align="start" data-size="M Compact" data-style="Bold" data-test="Text" style="color: inherit; display: block;">Registration</a></div>
+                  <div class="ZfdK6Ae8Lh _9kNVmQo8-7"><a href="<?php echo e(route('register')); ?>" class="ekkZvIsihs" data-align="start" data-size="M Compact" data-style="Bold" data-test="Text" style="color: inherit; display: block;">Registration</a></div>
                 </div>
               </div>
             </div>
@@ -221,7 +221,7 @@
   </header>  </div>
          <div class="page-main">
         <section class="p-home-m-welcome p-home__section page__container" style="position: relative;">
-            <video autoplay="" muted="" loop="" playsinline="" preload="none" src="{{ asset('assets/bg-1.mp4') }}" style="position: absolute;
+            <video autoplay="" muted="" loop="" playsinline="" preload="none" src="<?php echo e(asset('assets/bg-1.mp4')); ?>" style="position: absolute;
             width: 100%;
             left: 0;
             opacity: 0.4;"></video>
@@ -231,8 +231,8 @@
                 <p class="com-c-description p-home-m-welcome__desc" data-trans="home_welcome_desc">A trading platform that
                     supports your financial goals.</p>
                 <div style="display: flex;">
-                    <a href="{{ route('register') }}" class="_633ZZh0WP6 com-c-button com-c-button_color_accent p-home-c-button-desktop p-home-m-devices__button" type="button" style="min-height: unset;margin-right:5px;background:#0094ff;border-radius:8px">Register</a>
-                    <a href="{{ route('login') }}" class="_633ZZh0WP6 com-c-button com-c-button_color_accent p-home-c-button-desktop p-home-m-devices__button" type="button" style="min-height: unset;background: #fff;
+                    <a href="<?php echo e(route('register')); ?>" class="_633ZZh0WP6 com-c-button com-c-button_color_accent p-home-c-button-desktop p-home-m-devices__button" type="button" style="min-height: unset;margin-right:5px;background:#0094ff;border-radius:8px">Register</a>
+                    <a href="<?php echo e(route('login')); ?>" class="_633ZZh0WP6 com-c-button com-c-button_color_accent p-home-c-button-desktop p-home-m-devices__button" type="button" style="min-height: unset;background: #fff;
     color: #0094ff;
     outline: 2px solid #0094ff;border-radius:8px">Login</a>
                 </div>
@@ -267,9 +267,9 @@
                                     <a href="#" target="_blank" class="_633ZZh0WP6 com-c-button com-c-button_color_accent p-home-c-button-desktop p-home-m-devices__button" type="button" style="min-height: unset;margin-right:5px;background:#0094ff;border-radius:8px">Certificate
                                         of Incorporation</a>
                                 </div>
-                                <!-- <img src="{{ asset('assets/1_3leh0M048y_wZrfggrF9Qw.gif') }}" width="200" height="200" /> -->
+                                <!-- <img src="<?php echo e(asset('assets/1_3leh0M048y_wZrfggrF9Qw.gif')); ?>" width="200" height="200" /> -->
                                 <div style="width: 30%;">
-                                    <img src="{{ asset('assets/pexels-tima-miroshnichenko-7567565.jpg') }}" width="100%" style="border-radius: 8px;">
+                                    <img src="<?php echo e(asset('assets/pexels-tima-miroshnichenko-7567565.jpg')); ?>" width="100%" style="border-radius: 8px;">
                                 </div>
                             </div>
                         </div>
@@ -284,7 +284,7 @@
                             <div style="max-width: 394px; display: block;"><img alt="" role="presentation" aria-hidden="true" src="data:image/svg+xml;charset=utf-8,%3Csvg height='794' width='394' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E" style="max-width: 100%; display: block; position: static;"></div>
                             <div aria-hidden="true" data-placeholder-image="" style="opacity: 0; transition: opacity 500ms linear 0s; background-color: transparent; position: absolute; inset: 0px;">
                             </div>
-                            <img src="{{ asset('assets/960.webp') }}" alt="planet" style="object-fit: cover; opacity: 1;">
+                            <img src="<?php echo e(asset('assets/960.webp')); ?>" alt="planet" style="object-fit: cover; opacity: 1;">
                         </div>
                     </div>
                     <div class="p-home-m-seo-numbers-item__content">
@@ -363,10 +363,10 @@
             </div>
             <div class="p-home-m-seoblog__list-wrap">
                 <ul class="p-home-m-seoblog__list" style="padding: 0;">
-                    <li class="p-home-m-seoblog__link" style="min-height: 425px;"><a href="{{ url('option-trading-2') }}" class="p-home-m-seoblog__link-card">
+                    <li class="p-home-m-seoblog__link" style="min-height: 425px;"><a href="<?php echo e(url('option-trading-2')); ?>" class="p-home-m-seoblog__link-card">
                             <div class="p-home-m-seoblog__link-card-img-wrap">
                                 <div class="gatsby-image-wrapper gatsby-image-wrapper-constrained" style="width: 100%;">
-                                    <img src="{{ asset('assets/pexels-anna-nekrashevich-6801647.jpg') }}">
+                                    <img src="<?php echo e(asset('assets/pexels-anna-nekrashevich-6801647.jpg')); ?>">
 
                                 </div>
                                 <div class="p-home-m-seoblog__link-card-title-wrap"><span class="p-home-m-seoblog__link-card-title">Copy Option Trading
@@ -374,10 +374,10 @@
                                         another, more experienced trader. It can be manual, semi-automatic or fully
                                         automatic.</span></div>
                         </div></a></li>
-                    <li class="p-home-m-seoblog__link"><a href="{{ url('advance-trading-2') }}" class="p-home-m-seoblog__link-card">
+                    <li class="p-home-m-seoblog__link"><a href="<?php echo e(url('advance-trading-2')); ?>" class="p-home-m-seoblog__link-card">
                             <div class="p-home-m-seoblog__link-card-img-wrap">
                                 <div class="gatsby-image-wrapper gatsby-image-wrapper-constrained" style="width: 100%;">
-                                    <img src="{{ asset('assets/pexels-george-morina-4960396.jpg') }}">
+                                    <img src="<?php echo e(asset('assets/pexels-george-morina-4960396.jpg')); ?>">
                                 </div>
                             </div>
                             <div class="p-home-m-seoblog__link-card-title-wrap"><span class="p-home-m-seoblog__link-card-title">Advance Trading <br>
@@ -386,10 +386,10 @@
                                     understanding of the programming language specific to the user's trading platform.
                                 </span></div>
                         </a></li>
-                    <li class="p-home-m-seoblog__link"><a href="{{ url('live-trading-2') }}" class="p-home-m-seoblog__link-card">
+                    <li class="p-home-m-seoblog__link"><a href="<?php echo e(url('live-trading-2')); ?>" class="p-home-m-seoblog__link-card">
                             <div class="p-home-m-seoblog__link-card-img-wrap">
                                 <div class="gatsby-image-wrapper gatsby-image-wrapper-constrained" style="width: 100%;">
-                                    <img src="{{ asset('assets/pexels-alphatradezone-5831671.jpg') }}">
+                                    <img src="<?php echo e(asset('assets/pexels-alphatradezone-5831671.jpg')); ?>">
 
 
                                 </div>
@@ -412,10 +412,10 @@
             </div>
             <div class="p-home-m-seoblog__list-wrap">
                 <ul class="p-home-m-seoblog__list" style="padding: 0;">
-                    <li class="p-home-m-seoblog__link" style="min-height: 425px;"><a href="{{ url('swing-trading-2') }}" class="p-home-m-seoblog__link-card">
+                    <li class="p-home-m-seoblog__link" style="min-height: 425px;"><a href="<?php echo e(url('swing-trading-2')); ?>" class="p-home-m-seoblog__link-card">
                             <div class="p-home-m-seoblog__link-card-img-wrap">
                                 <div class="gatsby-image-wrapper gatsby-image-wrapper-constrained" style="width: 100%;">
-                                    <img src="{{ asset('assets/pexels-alphatradezone-5833756.jpg') }}">
+                                    <img src="<?php echo e(asset('assets/pexels-alphatradezone-5833756.jpg')); ?>">
 
                                 </div>
                                 <div class="p-home-m-seoblog__link-card-title-wrap"><span class="p-home-m-seoblog__link-card-title">Swing Trading <br> Swing trading is a
@@ -424,10 +424,10 @@
                                         traders primarily use technical analysis to look for trading opportunities.</span>
                                 </div>
                         </div></a></li>
-                    <li class="p-home-m-seoblog__link"><a href="{{ url('futures-2') }}" class="p-home-m-seoblog__link-card">
+                    <li class="p-home-m-seoblog__link"><a href="<?php echo e(url('futures-2')); ?>" class="p-home-m-seoblog__link-card">
                             <div class="p-home-m-seoblog__link-card-img-wrap">
                                 <div class="gatsby-image-wrapper gatsby-image-wrapper-constrained" style="width: 100%;">
-                                    <img src="{{ asset('assets/pexels-karolina-grabowska-7876672.jpg') }}">
+                                    <img src="<?php echo e(asset('assets/pexels-karolina-grabowska-7876672.jpg')); ?>">
 
 
                                 </div>
@@ -439,10 +439,10 @@
                                     than just owning the securities directly.
                                 </span></div>
                         </a></li>
-                    <li class="p-home-m-seoblog__link"><a href="{{ url('option-trading-2') }}" class="p-home-m-seoblog__link-card">
+                    <li class="p-home-m-seoblog__link"><a href="<?php echo e(url('option-trading-2')); ?>" class="p-home-m-seoblog__link-card">
                             <div class="p-home-m-seoblog__link-card-img-wrap">
                                 <div class="gatsby-image-wrapper gatsby-image-wrapper-constrained" style="width: 100%;">
-                                    <img src="{{ asset('assets/pexels-leeloo-thefirst-7873553.jpg') }}">
+                                    <img src="<?php echo e(asset('assets/pexels-leeloo-thefirst-7873553.jpg')); ?>">
 
 
                                 </div>
@@ -456,7 +456,7 @@
                     <li class="p-home-m-seoblog__link"><a href="#" class="p-home-m-seoblog__link-card">
                             <div class="p-home-m-seoblog__link-card-img-wrap">
                                 <div class="gatsby-image-wrapper gatsby-image-wrapper-constrained" style="width: 100%;">
-                                    <img src="{{ asset('assets/pexels-janrune-smenes-reite-3207536.jpg') }}">
+                                    <img src="<?php echo e(asset('assets/pexels-janrune-smenes-reite-3207536.jpg')); ?>">
 
                                 </div>
                                 <div class="p-home-m-seoblog__link-card-title-wrap"><span class="p-home-m-seoblog__link-card-title">Oil and Gas <br> with Black Rock Digital Asset                                        Trade</span></div>
@@ -470,7 +470,7 @@
             <div class="p-home-m-seo-for-everyone__list-wrap">
                 <ul style="display: flex;padding:0;flex-wrap: wrap;">
                     <div style="width: 50%;">
-                        <li class="p-home-m-seo-for-everyone__item" style="margin-right: 10px;margin-bottom:15px;background-image: url('{{ asset('assets/social-bg.jpg') }}') !important">
+                        <li class="p-home-m-seo-for-everyone__item" style="margin-right: 10px;margin-bottom:15px;background-image: url('<?php echo e(asset('assets/social-bg.jpg')); ?>') !important">
                             <h3 class="p-home-m-seo-for-everyone__item-head">Clear Investment Processes</h3>
                             <p class="p-home-m-seo-for-everyone__item-list" style="padding: 0;">
                                 Our transparent investment processes detail how each investment team identifies and
@@ -481,7 +481,7 @@
                         </li>
                     </div>
                     <div style="width: 50%;">
-                        <li class="p-home-m-seo-for-everyone__item" style="margin-left: 10px;margin-bottom:15px;background-image: url('{{ asset('assets/chat-bg.jpg') }}') !important">
+                        <li class="p-home-m-seo-for-everyone__item" style="margin-left: 10px;margin-bottom:15px;background-image: url('<?php echo e(asset('assets/chat-bg.jpg')); ?>') !important">
                             <h3 class="p-home-m-seo-for-everyone__item-head" style="color: #000">ESG Integration</h3>
                             <p class="p-home-m-seo-for-everyone__item-list" style="padding: 0;color: #000">
                                 As a signatory of the United Nations-supported Principles for Responsible Investment (UN
@@ -491,7 +491,7 @@
                         </li>
                     </div>
                     <div style="width: 50%;">
-                        <li class="p-home-m-seo-for-everyone__item" style="margin-right: 10px;margin-bottom:15px;background-image: url('{{ asset('assets/social-bg.jpg') }}') !important">
+                        <li class="p-home-m-seo-for-everyone__item" style="margin-right: 10px;margin-bottom:15px;background-image: url('<?php echo e(asset('assets/social-bg.jpg')); ?>') !important">
                             <h3 class="p-home-m-seo-for-everyone__item-head">Robust Oversight</h3>
                             <p class="p-home-m-seo-for-everyone__item-list" style="padding: 0;">
                                 Portfolio risk management is supplemented by our independent risk and quantitative analytics
@@ -502,7 +502,7 @@
                         </li>
                     </div>
                     <div style="width: 50%;">
-                        <li class="p-home-m-seo-for-everyone__item" style="margin-left: 10px;margin-bottom:15px;background-image: url('{{ asset('assets/chat-bg.jpg') }}') !important">
+                        <li class="p-home-m-seo-for-everyone__item" style="margin-left: 10px;margin-bottom:15px;background-image: url('<?php echo e(asset('assets/chat-bg.jpg')); ?>') !important">
                             <h3 class="p-home-m-seo-for-everyone__item-head" style="color: #000">High-Conviction,
                                 Risk-Aware Portfolios</h3>
                             <p class="p-home-m-seo-for-everyone__item-list" style="padding: 0;color: #000">
@@ -532,7 +532,7 @@
                         <div class="tradingview-widget-container__widget"></div>
                         <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/currencies/forex-heat-map/" rel="noopener" target="_blank"><span class="blue-text">Forex market heatmap</span></a> by TradingView
                         </div>
-                        <script type="text/javascript" src="{{ asset('external-embedding/embed-widget-forex-heat-map.js') }}" async="">
+                        <script type="text/javascript" src="<?php echo e(asset('external-embedding/embed-widget-forex-heat-map.js')); ?>" async="">
                             {
                                 "width": "100%",
                                 "height": "100%",
@@ -584,7 +584,7 @@
                             </p>
                         </div>
                         <div style="width: 50%;display:flex;align-items:center">
-                            <img style="width: 100%;border-radius:8px" src="{{ asset('assets/pexels-burak-the-weekender-187041.jpg') }}">
+                            <img style="width: 100%;border-radius:8px" src="<?php echo e(asset('assets/pexels-burak-the-weekender-187041.jpg')); ?>">
                         </div>
                     </div>
                 </div>
@@ -1029,7 +1029,7 @@
                             </div>
                             <!-- <button class="p-home-m-seo-become-a-trader__item-wrap-button p-home-m-seo-become-a-trader__item-wrap-button--ltr"></button> -->
                         </div>
-                        <div class="p-home-m-seo-become-a-trader__image-wrap" style="background: url('{{ asset('assets/pexels-liza-summer-6347702.jpg') }}');height: 100%;
+                        <div class="p-home-m-seo-become-a-trader__image-wrap" style="background: url('<?php echo e(asset('assets/pexels-liza-summer-6347702.jpg')); ?>');height: 100%;
                         background-size: cover;">
                         </div>
                     </div>
@@ -1052,7 +1052,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: url('{{ asset('assets/header-campus.webp') }}');
+    background-image: url('<?php echo e(asset('assets/header-campus.webp')); ?>');
     z-index: -1;
     opacity: 0.9;
   }
@@ -1061,7 +1061,7 @@
   <div class="com-footer-top com-footer__container" style="padding: 40px;">
     <div class="com-footer-m-main-info com-footer-top__info">
       <div class="com-footer-m-main-info__content">
-        <div class="com-footer-m-main-info__data"><a class="com-footer-m-main-info__logo" href="{{ route('home') }}"> <img src="{{ asset('assets/logo.png') }}" width="200">
+        <div class="com-footer-m-main-info__data"><a class="com-footer-m-main-info__logo" href="<?php echo e(route('home')); ?>"> <img src="<?php echo e(asset('assets/logo.png')); ?>" width="200">
           </a>
           <div class="com-footer-m-main-info__copy">©2025 Black Rock Digital Asset</div>
           <hr>
@@ -1092,7 +1092,7 @@
   <div class="com-footer-bottom com-footer-bottom_dir_ltr">
     <div class="com-footer-bottom__content com-footer__container">
       <div class="com-footer-bottom__langs"></div>
-      <nav class="com-footer-bottom__nav"><a data-trans="user_tpl_regulation" class="com-footer-c-nav-link com-footer-bottom__link" href="{{ route('home') }}">Regulation</a><a data-trans="site_law_info" class="com-footer-c-nav-link com-footer-bottom__link" href="pages/terms.html">Legal Information</a></nav>
+      <nav class="com-footer-bottom__nav"><a data-trans="user_tpl_regulation" class="com-footer-c-nav-link com-footer-bottom__link" href="<?php echo e(route('home')); ?>">Regulation</a><a data-trans="site_law_info" class="com-footer-c-nav-link com-footer-bottom__link" href="pages/terms.html">Legal Information</a></nav>
     </div>
   </div>
 </footer>        </div>
@@ -1111,7 +1111,7 @@ window.smartsupp||(function(d) {
 </script>
 <noscript> Powered by <a href=%e2%80%9chttps_/www.smartsupp.html target=“_blank”>Smartsupp</a></noscript>
 
-@include('layouts.livechat')
+<?php echo $__env->make('layouts.livechat', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 </body>
 
 
@@ -1119,4 +1119,4 @@ window.smartsupp||(function(d) {
 <!-- Mirrored from karamelscript.com.ng/bmg/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:37:37 GMT -->
 
 <!-- Mirrored from blackrockdigitalasset.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:49 GMT -->
-</html>
+</html><?php /**PATH C:\xampppppp\htdocs\blackrock\black\resources\views/home/index.blade.php ENDPATH**/ ?>

@@ -5,7 +5,7 @@
 
 <!-- Mirrored from karamelscript.com.ng/bmg/oil-and-gas by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:37:44 GMT -->
 <!-- Added by HTTrack -->
-<!-- Mirrored from trustwavedigitalasset.org/oil-and-gas.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:56 GMT -->
+<!-- Mirrored from blackrockdigitalasset.com/oil-and-gas.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:56 GMT -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -71,12 +71,12 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Black Rock Digital Asset - Discover investment possibilities">
     <meta property="og:description" content="A trading platform for online trading and investments from the broker Black Rock Digital Asset. Start earning money with millions of traders worldwide!">
-    <meta property="og:url" content="https://trustwavedigitalasset.org">
+    <meta property="og:url" content="https://blackrockdigitalasset.com">
     <meta property="og:site_name" content="Black Rock Digital Asset">
     <meta property="og:image" content="https://amgcopttrade.com/assets/pexels-tima-miroshnichenko-7567565.jpg">
     <meta property="og:image:width" content="2000">
     <meta property="og:image:height" content="1279">
-    <meta name="twitter:site" content="https://trustwavedigitalasset.org">
+    <meta name="twitter:site" content="https://blackrockdigitalasset.com">
     <meta name="twitter:title" content="Black Rock Digital Asset">
     <meta name="twitter:description" content="A trading platform for online trading and investments from the broker Black Rock Digital Asset. Start earning money with millions of traders worldwide!">
     <meta name="twitter:card" content="summary_large_image">
@@ -383,7 +383,7 @@
           <div class="com-footer-m-main-info__copy">©2025 Black Rock Digital Asset</div>
           <hr>
           <h4>Email</h4>
-          <div class="com-footer-m-main-info__copy">support@trustwavedigitalasset.org</div>
+          <div class="com-footer-m-main-info__copy">support@blackrockdigitalasset.com</div>
           <hr>
           <h4>Phone</h4>
           <div class="com-footer-m-main-info__copy">Available on request</div>
@@ -416,11 +416,13 @@
     </div>
     
     
+
+@include('layouts.livechat')
 </body>
 
 
 
 <!-- Mirrored from karamelscript.com.ng/bmg/oil-and-gas by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:37:45 GMT -->
 
-<!-- Mirrored from trustwavedigitalasset.org/oil-and-gas.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:57 GMT -->
+<!-- Mirrored from blackrockdigitalasset.com/oil-and-gas.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:57 GMT -->
 </html>
