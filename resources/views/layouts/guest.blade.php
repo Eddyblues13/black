@@ -126,10 +126,10 @@
     <!-- Page Title -->
     <title>@yield('title') | {{ $settings->site_name }}</title>
     <script src="{{ asset('themes/dashly/assets/ext/dist/alpine.min.js') }}" defer></script>
-       <!-- Smartsupp Live Chat script -->
+    <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
 var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'd9590f10b6ca1e78237040a0f3c15ca96bd0c95b';
+_smartsupp.key = '896f18d40593dbd3e3488aea4c7de7b4f5d157c4';
 window.smartsupp||(function(d) {
   var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
   s=d.getElementsByTagName('script')[0];c=d.createElement('script');
@@ -138,6 +138,7 @@ window.smartsupp||(function(d) {
 })(document);
 </script>
 <noscript>Powered by <a href="https://www.smartsupp.com" target="_blank">Smartsupp</a></noscript>
+
 
 </head>
 

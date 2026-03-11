@@ -5,7 +5,7 @@
 
 <!-- Mirrored from karamelscript.com.ng/bmg/about by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:37:38 GMT -->
 <!-- Added by HTTrack -->
-<!-- Mirrored from blackrockdigitalasset.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:50 GMT -->
+<!-- Mirrored from chainoviacapital.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:50 GMT -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
     <link href="{{ asset('assets/css/styledb6.css') }}" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/favicon.png') }}">
     <meta name="generator" content="Gatsby 3.9.1">
-    <meta property="og:title" content="Black Rock Digital Asset">
+    <meta property="og:title" content="Chainovia Capital">
     <meta property="og:type" content="article">
     <meta property="og:image" content="amgcopttrade.com/assets/pexels-alphatradezone-5833756.html">
     <meta property="og:url" content="index.html">
@@ -63,22 +63,22 @@
         </style>
     </noscript>
 
-    <title data-react-helmet="true">Black Rock Digital Asset: the online trading and investment platform</title>
-    <meta data-react-helmet="true" namxe="title" property="og:title" content="Black Rock Digital Asset: the online trading and investment platform">
-    <meta name="keywords" content="Black Rock Digital Asset">
+    <title data-react-helmet="true">Chainovia Capital: the online trading and investment platform</title>
+    <meta data-react-helmet="true" namxe="title" property="og:title" content="Chainovia Capital: the online trading and investment platform">
+    <meta name="keywords" content="Chainovia Capital">
     <link rel="canonical" href="{{ route('home') }}">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Black Rock Digital Asset - Discover investment possibilities">
-    <meta property="og:description" content="A trading platform for online trading and investments from the broker Black Rock Digital Asset. Start earning money with millions of traders worldwide!">
-    <meta property="og:url" content="https://blackrockdigitalasset.com">
-    <meta property="og:site_name" content="Black Rock Digital Asset">
+    <meta property="og:title" content="Chainovia Capital - Discover investment possibilities">
+    <meta property="og:description" content="A trading platform for online trading and investments from the broker Chainovia Capital. Start earning money with millions of traders worldwide!">
+    <meta property="og:url" content="https://chainoviacapital.com">
+    <meta property="og:site_name" content="Chainovia Capital">
     <meta property="og:image" content="https://amgcopttrade.com/assets/pexels-tima-miroshnichenko-7567565.jpg">
     <meta property="og:image:width" content="2000">
     <meta property="og:image:height" content="1279">
-    <meta name="twitter:site" content="https://blackrockdigitalasset.com">
-    <meta name="twitter:title" content="Black Rock Digital Asset">
-    <meta name="twitter:description" content="A trading platform for online trading and investments from the broker Black Rock Digital Asset. Start earning money with millions of traders worldwide!">
+    <meta name="twitter:site" content="https://chainoviacapital.com">
+    <meta name="twitter:title" content="Chainovia Capital">
+    <meta name="twitter:description" content="A trading platform for online trading and investments from the broker Chainovia Capital. Start earning money with millions of traders worldwide!">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:src" content="https://amgcopttrade.com/assets/pexels-tima-miroshnichenko-7567565.jpg">
     <style>
@@ -227,7 +227,7 @@
                 <div class="page-m-intro__content">
                     <div class="page-m-intro__background page-m-intro__background--ltr" style="position: absolute;">
                         <h1 data-trans="about_page_intro_title" class="page-c-title page-m-intro__title">About Us</h1>
-                        <p class="page-m-intro__description text" data-trans="about_page_intro_description">Black Rock Digital Asset has been
+                        <p class="page-m-intro__description text" data-trans="about_page_intro_description">Chainovia Capital has been
                             sharing financial freedom with traders since 2014. In a continuous effort to give traders a more
                             comfortable and safe experience, its experts have been improving the platform ensuring traders
                             can
@@ -243,16 +243,16 @@
                     <div class="p-home-m-seo-become-a-trader__content" style="display: flex;height:650px">
                         <div class="p-home-m-seo-become-a-trader__item-wrap" style="max-width: 50%;width: 50%;height: 100%;">
                             <div class="p-home-m-seo-become-a-trader__item-wrap-content">
-                                <h2 class="com-c-title p-home-m-seo-become-a-trader__item-head" data-trans="become_a_trader_item_1_head">Time to take action with the international Black Rock Digital Asset broker</h2>
+                                <h2 class="com-c-title p-home-m-seo-become-a-trader__item-head" data-trans="become_a_trader_item_1_head">Time to take action with the international Chainovia Capital broker</h2>
                                 <p class="p-home-m-seo-become-a-trader__item-text" data-trans="become_a_trader_item_1_text_1">
                                     Trading will bring you profit with proper support, constant education, and a reasonable
-                                    approach. Black Rock Digital Asset is a broker platform that has created all the conditions
+                                    approach. Chainovia Capital is a broker platform that has created all the conditions
                                     to help you
                                     improve your trading life in every possible way.</p>
                                 <p class="p-home-m-seo-become-a-trader__item-text" data-trans="become_a_trader_item_1_text_2">
                                     From educational broker’s tools, demo accounts, and 24/7 support to your financial
                                     success,
-                                    Black Rock Digital Asset works tirelessly to remain at the forefront in trading online.
+                                    Chainovia Capital works tirelessly to remain at the forefront in trading online.
                                     Join now! Take full
                                     advantage of this online trading leader and make your way into the world of professional
                                     trading.</p>
@@ -284,7 +284,7 @@
                             <div class="p-home-m-seo-become-a-trader__item-wrap-content">
                                 <h2 class="com-c-title p-home-m-seo-become-a-trader__item-head" data-trans="become_a_trader_item_1_head">CORPORATE GOVERNANCE</h2>
                                 <p class="p-home-m-seo-become-a-trader__item-text" data-trans="become_a_trader_item_1_text_1">
-                                    The Board of Directors and management of Black Rock Digital Asset have long recognized the
+                                    The Board of Directors and management of Chainovia Capital have long recognized the
                                     importance of corporate governance practices that help ensure an environment of
                                     effective oversight and strong accountability. Our goal at Fenway Partners is to
                                     generate superior financial returns for our investors by building stronger and more
@@ -314,7 +314,7 @@
                             <div class="p-home-m-seo-become-a-trader__item-wrap-content">
                                 <h2 class="com-c-title p-home-m-seo-become-a-trader__item-head" data-trans="become_a_trader_item_1_head">ESG</h2>
                                 <p class="p-home-m-seo-become-a-trader__item-text" data-trans="become_a_trader_item_1_text_1">
-                                    ESG AT Black Rock Digital Asset                                    At Black Rock Digital Asset, we aim to accelerate the evolution of ESG - on behalf of clients,
+                                    ESG AT Chainovia Capital                                    At Chainovia Capital, we aim to accelerate the evolution of ESG - on behalf of clients,
                                     investors, communities and all the stakeholders - to make a positive impact on people
                                     and the planet. With our size, scale and significance at the heart of the financial
                                     system, we touch many points along the financial value chain-giving us an unparalleled
@@ -355,12 +355,12 @@
                                     performance. Disciplined risk estimation and management are deeply integrated components
                                     of the investment process across each one of our strategies.
                                     We believe a well-constructed portfolio upfront will outperform in good markets and
-                                    protect our client's capital in difficult markets. For this reason, Black Rock Digital Asset has
+                                    protect our client's capital in difficult markets. For this reason, Chainovia Capital has
                                     spent over a quarter of a century establishing risk management as a core discipline.
                                     This approach begins with a dedicated governance group that oversees risk management. An
                                     emphasis on liquid markets, proprietary risk models and a diversified funding structure
                                     seeks to further strengthen our approach.</p>
-                                <p class="p-home-m-seo-become-a-trader__item-text" data-trans="become_a_trader_item_1_text_1">At Black Rock Digital Asset, we advance sustainable
+                                <p class="p-home-m-seo-become-a-trader__item-text" data-trans="become_a_trader_item_1_text_1">At Chainovia Capital, we advance sustainable
                                     economic growth and financial opportunity. Drawing on over eight years of experience
                                     working with the world's leading businesses, entrepreneurs, and institutions, we
                                     mobilize our people, culture, technologies, and ideas to advance the success of our
@@ -376,7 +376,7 @@
         <!-- <section class="p-home-m-new-features p-home__section">
                     <div class="page__container">
                       <h2 class="com-c-title p-home-m-new-features__title" data-trans="home_new_features_title">The Latest from
-                        Black Rock Digital Asset</h2>
+                        Chainovia Capital</h2>
                       <p class="com-c-description p-home-m-new-features__desc" data-trans="home_new_features_desc">New features,
                         latest webinars and more...</p>
                       <ul class="p-home-m-new-features__list" style="padding: 0;">
@@ -435,10 +435,10 @@
       <div class="com-footer-m-main-info__content">
         <div class="com-footer-m-main-info__data"><a class="com-footer-m-main-info__logo" href="{{ route('home') }}"> <img src="{{ asset('assets/logo.png') }}" width="200">
           </a>
-          <div class="com-footer-m-main-info__copy">©2025 Black Rock Digital Asset</div>
+          <div class="com-footer-m-main-info__copy">©2025 Chainovia Capital</div>
           <hr>
           <h4>Email</h4>
-          <div class="com-footer-m-main-info__copy">support@blackrockdigitalasset.com</div>
+          <div class="com-footer-m-main-info__copy">support@chainoviacapital.com</div>
           <hr>
           <h4>Phone</h4>
           <div class="com-footer-m-main-info__copy">Available on request</div>
@@ -479,5 +479,5 @@
 
 <!-- Mirrored from karamelscript.com.ng/bmg/about by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:37:40 GMT -->
 
-<!-- Mirrored from blackrockdigitalasset.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:50 GMT -->
+<!-- Mirrored from chainoviacapital.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:50 GMT -->
 </html>

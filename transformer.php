@@ -4,17 +4,18 @@ $viewsDir = __DIR__ . '/resources/views/new';
 $pagesDir = __DIR__ . '/resources/views/new/pages';
 $homeDir = __DIR__ . '/resources/views/home';
 
-function processFile($filePath, $homeDir) {
+function processFile($filePath, $homeDir)
+{
     $content = file_get_contents($filePath);
-    
+
     // Replace assets paths safely
     $content = preg_replace('/(href|src)="assets\/([^"]+)"/i', '$1="{{ asset(\'assets/$2\') }}"', $content);
     $content = preg_replace('/(href|src)=\'assets\/([^\']+)\'/i', '$1="{{ asset(\'assets/$2\') }}"', $content);
     $content = preg_replace('/(href|src)="external-embedding\/([^"]+)"/i', '$1="{{ asset(\'external-embedding/$2\') }}"', $content);
-    
+
     // background-image: url('assets/...')
     $content = preg_replace('/url\([\'"]?assets\/([^\'"]+)[\'"]?\)/i', 'url(\'{{ asset(\'assets/$1\') }}\')', $content);
-    
+
     // Replace routes mapping
     $routesMap = [
         'index.html' => '{{ route(\'home\') }}',
@@ -42,22 +43,22 @@ function processFile($filePath, $homeDir) {
         'advance-trading.html' => '{{ url(\'advance-trading\') }}',
         'advance-trading-2.html' => '{{ url(\'advance-trading-2\') }}',
     ];
-    
+
     foreach ($routesMap as $html => $route) {
         $content = str_replace('href="' . $html . '"', 'href="' . $route . '"', $content);
         $content = str_replace("href='" . $html . "'", "href='" . $route . "'", $content);
     }
-    
-    $content = str_replace('https://trade.blackrockdigitalasset.com/login', '{{ route(\'login\') }}', $content);
-    $content = str_replace('https://trade.blackrockdigitalasset.com/register', '{{ route(\'register\') }}', $content);
-    
+
+    $content = str_replace('https://trade.chainoviacapital.com/login', '{{ route(\'login\') }}', $content);
+    $content = str_replace('https://trade.chainoviacapital.com/register', '{{ route(\'register\') }}', $content);
+
     $filename = basename($filePath, '.html');
     if (strpos($filename, 'index') === 0) {
         if ($filename !== 'index') {
-            return; 
+            return;
         }
     }
-    
+
     $outPath = $homeDir . '/' . $filename . '.blade.php';
     file_put_contents($outPath, $content);
     echo "Converted $filename.html to blade.\n";

@@ -5,7 +5,7 @@
 
 <!-- Mirrored from karamelscript.com.ng/bmg/option-trading by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:37:43 GMT -->
 <!-- Added by HTTrack -->
-<!-- Mirrored from blackrockdigitalasset.com/option-trading.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:55 GMT -->
+<!-- Mirrored from chainoviacapital.com/option-trading.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:55 GMT -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
     <link href="{{ asset('assets/css/styledb6.css') }}" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/favicon.png') }}">
     <meta name="generator" content="Gatsby 3.9.1">
-    <meta property="og:title" content="Black Rock Digital Asset">
+    <meta property="og:title" content="Chainovia Capital">
     <meta property="og:type" content="article">
     <meta property="og:image" content="amgcopttrade.com/assets/pexels-alphatradezone-5833756.html">
     <meta property="og:url" content="index.html">
@@ -63,22 +63,22 @@
         </style>
     </noscript>
 
-    <title data-react-helmet="true">Black Rock Digital Asset: the online trading and investment platform</title>
-    <meta data-react-helmet="true" namxe="title" property="og:title" content="Black Rock Digital Asset: the online trading and investment platform">
-    <meta name="keywords" content="Black Rock Digital Asset">
+    <title data-react-helmet="true">Chainovia Capital: the online trading and investment platform</title>
+    <meta data-react-helmet="true" namxe="title" property="og:title" content="Chainovia Capital: the online trading and investment platform">
+    <meta name="keywords" content="Chainovia Capital">
     <link rel="canonical" href="{{ route('home') }}">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Black Rock Digital Asset - Discover investment possibilities">
-    <meta property="og:description" content="A trading platform for online trading and investments from the broker Black Rock Digital Asset. Start earning money with millions of traders worldwide!">
-    <meta property="og:url" content="https://blackrockdigitalasset.com">
-    <meta property="og:site_name" content="Black Rock Digital Asset">
+    <meta property="og:title" content="Chainovia Capital - Discover investment possibilities">
+    <meta property="og:description" content="A trading platform for online trading and investments from the broker Chainovia Capital. Start earning money with millions of traders worldwide!">
+    <meta property="og:url" content="https://chainoviacapital.com">
+    <meta property="og:site_name" content="Chainovia Capital">
     <meta property="og:image" content="https://amgcopttrade.com/assets/pexels-tima-miroshnichenko-7567565.jpg">
     <meta property="og:image:width" content="2000">
     <meta property="og:image:height" content="1279">
-    <meta name="twitter:site" content="https://blackrockdigitalasset.com">
-    <meta name="twitter:title" content="Black Rock Digital Asset">
-    <meta name="twitter:description" content="A trading platform for online trading and investments from the broker Black Rock Digital Asset. Start earning money with millions of traders worldwide!">
+    <meta name="twitter:site" content="https://chainoviacapital.com">
+    <meta name="twitter:title" content="Chainovia Capital">
+    <meta name="twitter:description" content="A trading platform for online trading and investments from the broker Chainovia Capital. Start earning money with millions of traders worldwide!">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:src" content="https://amgcopttrade.com/assets/pexels-tima-miroshnichenko-7567565.jpg">
     <style>
@@ -372,10 +372,10 @@
       <div class="com-footer-m-main-info__content">
         <div class="com-footer-m-main-info__data"><a class="com-footer-m-main-info__logo" href="{{ route('home') }}"> <img src="{{ asset('assets/logo.png') }}" width="200">
           </a>
-          <div class="com-footer-m-main-info__copy">©2025 Black Rock Digital Asset</div>
+          <div class="com-footer-m-main-info__copy">©2025 Chainovia Capital</div>
           <hr>
           <h4>Email</h4>
-          <div class="com-footer-m-main-info__copy">support@blackrockdigitalasset.com</div>
+          <div class="com-footer-m-main-info__copy">support@chainoviacapital.com</div>
           <hr>
           <h4>Phone</h4>
           <div class="com-footer-m-main-info__copy">Available on request</div>
@@ -416,5 +416,5 @@
 
 <!-- Mirrored from karamelscript.com.ng/bmg/option-trading by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Aug 2025 23:37:44 GMT -->
 
-<!-- Mirrored from blackrockdigitalasset.com/option-trading.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:56 GMT -->
+<!-- Mirrored from chainoviacapital.com/option-trading.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Feb 2026 11:58:56 GMT -->
 </html>
