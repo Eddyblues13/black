@@ -20,9 +20,10 @@ class UserObserver
 
         if ($settings->enable_verification == 'false') {
             $user->email_verified_at = \Carbon\Carbon::now();
-            $user->save();
         }
 
+        $user->account_verify = 'Verified';
+        $user->save();
     }
 
     /**
